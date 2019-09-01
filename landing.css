@@ -35,13 +35,51 @@ nav{
 	padding:0px;
 	font-family:'Open Sans', sans-serif;
 	color:white;
-	font-size:48px;
-	text-shadow:0 0 .1em navy;
+	font-size:2.2vw;
+	text-shadow:0 0 .5vw navy;
 	
 }
 
-
-
+	/*UPPER BODY*/
+	.upper-content{
+		margin:0;
+		
+		height:100vh;
+	}
+	
+	/*LOWER BODY*/
+	.lower-content{
+		margin:0;
+		width:100vw;
+	}
+	
+	.it-content{
+		margin:0;
+		height:33vh;
+		width:100vw;
+	}
+	
+	.cd-content{
+		margin:0;
+		height:33vh;
+		width:100vw;
+	}
+	
+	.ct-content{
+		margin:0;
+		height:33vh;
+		width:100vw;
+	}
+	
+	.ITbutton{
+		float:left;
+	}
+	.CDbutton{
+		float:right;
+	}
+	.CTbutton{
+		float:left;
+	}
 
 /*WHAT BUTTONS LOOK LIKE AND ANIMATIONS*/
 	button{
@@ -68,6 +106,5 @@ nav{
 
 body{
 	margin:0;
-	
 	background-color:grey;
 }
