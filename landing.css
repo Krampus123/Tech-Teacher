@@ -1,0 +1,73 @@
+
+
+/*HEADER STUFF*/
+header{
+	background-color:white;
+	
+}
+nav{
+	
+	background-color:pink;
+	
+	
+}
+
+.navbar{
+	background-color:firebrick;
+	width:100%;
+	
+}
+
+.navbar a{
+	color:white;
+	margin:5px;
+	padding:5px;
+	text-align:center;
+	text-decoration:none;
+	font-family:'Open Sans', sans-serif;
+	font-size:17px;
+}
+/*END HEADER STUFF*/
+
+/*BODY STUFF*/
+.title{
+	text-align:center;
+	padding:0px;
+	font-family:'Open Sans', sans-serif;
+	color:white;
+	font-size:48px;
+	text-shadow:0 0 .1em navy;
+	
+}
+
+
+
+
+/*WHAT BUTTONS LOOK LIKE AND ANIMATIONS*/
+	button{
+		
+		padding:10px;
+		font-family:'Open Sans', sans-serif;
+		font-size:20px;
+		color:white;
+		background-color:rgba(4,85,167,1);
+		
+		border-color:pink;
+		border-radius: 40px;
+		margin:5px;
+		cursor:pointer;
+		width:15em;
+		
+	}
+
+	button:hover{
+		background-color:black;
+		-webkit-transition-duration:0.4s;
+	}
+
+
+body{
+	margin:0;
+	
+	background-color:grey;
+}
